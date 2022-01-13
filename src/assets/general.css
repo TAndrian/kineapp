@@ -1,0 +1,38 @@
+/*
+	General CSS rules
+*/
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  background: rgb(245, 245, 245);
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+ul,
+h1,
+h2,
+h3,
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+}
+
+.text--error {
+  color: red;
+  font-style: italic;
+}
